@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  mongoose.c
+  mongoosetestserver.cpp
+  mongoose_test_server.vcxproj -> c:\repos\mongoose_test_server\Debug\mongoose_test_server.exe
+  mongoose_test_server.vcxproj -> c:\repos\mongoose_test_server\Debug\mongoose_test_server.pdb (Partial PDB)
