@@ -22,6 +22,9 @@
     <Filter Include="Source Files\examples\udp_echo">
       <UniqueIdentifier>{8b76c837-0e83-4cf7-8118-1493b0fa580a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\examples\netcat">
+      <UniqueIdentifier>{52e1d923-a3d2-4c96-bea5-aa1121d4c56d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -103,6 +106,9 @@
     </ClCompile>
     <ClCompile Include="examples\restful_server_s3\restful_server_s3.c">
       <Filter>Source Files\examples</Filter>
+    </ClCompile>
+    <ClCompile Include="examples\netcat\nc.c">
+      <Filter>Source Files\examples\netcat</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

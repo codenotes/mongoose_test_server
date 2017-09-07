@@ -130,7 +130,9 @@ int main(int argc, char *argv[]) {
 
   signal(SIGTERM, signal_handler);
   signal(SIGINT, signal_handler);
+#ifndef _WIN32
   signal(SIGPIPE, SIG_IGN);
+#endif
 
   if (is_listening) {
     struct mg_bind_opts opts;
